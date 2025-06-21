@@ -208,7 +208,7 @@ a {
     align-items: center;
     position: relative;
     background: 
-        url('https://pixabay.com/get/g0e77b627c0416014f5d4c41080f1fb69f2cca7cae6f50c3b58b0ee115ab9aa2b2733a6ee105cab34b3d9e31737b300205adcd4e1da303958d1611cc7b824509f_1280.jpg') center/cover,
+        url('https://cdn.pixabay.com/photo/2017/01/06/19/15/space-1968232_1280.jpg') center/cover,
         var(--background-dark);
     overflow: hidden;
 }
