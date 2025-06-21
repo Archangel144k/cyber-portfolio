@@ -1,0 +1,28 @@
+# Git Commands to Push to Archangel144k/cyber-portfolio
+
+# Step 1: Navigate to your project directory
+cd /path/to/your/portfolio/files
+
+# Step 2: Initialize Git repository
+git init
+git branch -M main
+
+# Step 3: Configure Git with your details
+git config user.name "Archangel144k"
+git config user.email "your-email@example.com"
+
+# Step 4: Add remote repository
+git remote add origin https://github.com/Archangel144k/cyber-portfolio.git
+
+# Step 5: Add all files
+git add .
+
+# Step 6: Create initial commit
+git commit -m "Initial cybersecurity portfolio - dark theme with animations and home lab showcase"
+
+# Step 7: Push to GitHub
+git push -u origin main
+
+# Alternative if repository already exists:
+# git pull origin main --allow-unrelated-histories
+# git push origin main
